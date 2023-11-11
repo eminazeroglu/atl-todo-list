@@ -1,0 +1,8 @@
+:root {
+    --color-success: #13E328;
+    --color-primary: #0085FF;
+    --color-danger: #FF0000;
+    --color-gray: #8F8F8F;
+    --main-border-color: #E1E1E1;
+    --container-size: 350px;
+}

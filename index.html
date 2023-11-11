@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main class="container pt-16">
+        <section class="flex">
+            <input type="text" class="form-element w-full px-8">
+            <button class="btn btn-success" data-method="hello">
+                <i class="icon icon-plus"></i>
+            </button>
+        </section>
+        <section class="pt-16 flex">
+            <button class="btn flex-1 btn-rounded btn-gray" data-method="all">
+                All
+            </button>
+            <button class="btn flex-1 mx-6 btn-rounded btn-gray-outline" data-method="hello">
+                Complated
+            </button>
+            <button class="btn flex-1 btn-rounded btn-gray-outline" data-method="hello">
+                Pending
+            </button>
+        </section>
+        <section class="pt-14 space-y-6" id="taskContainer">
+    
+        </section>
+    </main>
+
+    <script src="./assets/js/methods.js"></script>
+    <script src="./assets/js/ui.js"></script>
+    <script src="./assets/js/events.js"></script>
+</body>
+</html>

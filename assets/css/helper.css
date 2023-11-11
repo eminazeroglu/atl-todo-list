@@ -1,0 +1,268 @@
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex-grow: 1;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.w-full {
+    width: 100%;
+}
+
+/* Border */
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-theme {
+    border-color: var(--main-border-color);
+}
+
+.border-danger {
+    border-color: var(--color-danger);
+}
+
+.border-primary {
+    border-color: var(--color-primary);
+}
+
+/* Margin */
+.m-6 {
+    margin: 6px;
+}
+
+.m-8 {
+    margin: 8px;
+}
+
+.m-12 {
+    margin: 12px;
+}
+
+.m-14 {
+    margin: 14px;
+}
+
+.m-16 {
+    margin: 16px;
+}
+
+.my-6 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.my-8 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.my-12 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.my-14 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.my-16 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.mx-6 {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.mx-8 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.mx-12 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.mx-14 {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.mx-16 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+/* Padding */
+.p-6 {
+    padding: 6px;
+}
+
+.p-8 {
+    padding: 8px;
+}
+
+.p-12 {
+    padding: 12px;
+}
+
+.p-14 {
+    padding: 14px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.pt-6 {
+    padding-top: 6px;
+}
+
+.pt-8 {
+    padding-top: 8px;
+}
+
+.pt-12 {
+    padding-top: 12px;
+}
+
+.pt-14 {
+    padding-top: 14px;
+}
+
+.pt-16 {
+    padding-top: 16px;
+}
+
+.pb-6 {
+    padding-bottom: 6px;
+}
+
+.pb-8 {
+    padding-bottom: 8px;
+}
+
+.pb-12 {
+    padding-bottom: 12px;
+}
+
+.pb-14 {
+    padding-bottom: 14px;
+}
+
+.pb-16 {
+    padding-bottom: 16px;
+}
+
+.pl-6 {
+    padding-left: 6px;
+}
+
+.pl-8 {
+    padding-left: 8px;
+}
+
+.pl-12 {
+    padding-left: 12px;
+}
+
+.pl-14 {
+    padding-left: 14px;
+}
+
+.pl-16 {
+    padding-left: 16px;
+}
+
+.pr-6 {
+    padding-right: 6px;
+}
+
+.pr-8 {
+    padding-right: 8px;
+}
+
+.pr-12 {
+    padding-right: 12px;
+}
+
+.pr-14 {
+    padding-right: 14px;
+}
+
+.pr-16 {
+    padding-right: 16px;
+}
+
+.py-6 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.py-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.py-14 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.px-6 {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.px-8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.px-14 {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.space-y-6 > *:not(:first-child, :last-child) {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}

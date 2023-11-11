@@ -1,0 +1,4 @@
+.form-element {
+    height: 40px;
+    border: 1px solid var(--main-border-color);
+}

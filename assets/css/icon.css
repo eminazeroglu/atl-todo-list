@@ -1,0 +1,27 @@
+.icon {
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-sm {
+    width: 10px;
+    height: 10px;
+}
+
+.icon-pen {
+    background-image: url('../icon/pen.svg');
+}
+
+.icon-plus {
+    background-image: url('../icon/plus.svg');
+}
+
+.icon-trash {
+    background-image: url('../icon/trash.svg');
+}
