@@ -262,7 +262,15 @@
     text-decoration: line-through;
 }
 
-.space-y-6 > *:not(:first-child, :last-child) {
+.space-y-6 > * {
     margin-bottom: 6px;
     margin-top: 6px;
+}
+
+.space-y-6 > :first-child {
+    margin-top: 0;
+}
+
+.space-y-6 > :last-child {
+    margin-bottom: 0;
 }
