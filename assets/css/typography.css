@@ -3,3 +3,13 @@
     margin: 0 auto;
 }
 
+.active-status {
+    background-color: var(--color-gray);
+    color: #fff;
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

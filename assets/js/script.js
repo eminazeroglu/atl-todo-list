@@ -1,18 +1,8 @@
-const items = [];
-
-const todo = new Todo(items);
-
-UI.addBtn.addEventListener('click', function () {
-    const text = UI.textInput.value;
-
-    if (text.toString().trim()) {
-        todo.add(text);
-        UI.textInput.value = '';
+const todo = new Todo({
+    icon: {
+        edit: 'icon icon-pen',
+        trash: 'icon icon-trash',
     }
-})
-
-
-
-
-todo.createUI();
+});
+todo.start();
 

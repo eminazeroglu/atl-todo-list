@@ -9,28 +9,25 @@
 <body>
     <main class="container pt-16">
         <section class="flex">
-            <input type="text" class="form-element w-full px-8" id="textInput">
-            <button class="btn btn-success" id="addBtn">
+            <input type="text" class="form-element w-full px-8" data-todo-input-text>
+            <button class="btn btn-success" data-todo-btn-add>
                 <i class="icon icon-plus"></i>
             </button>
         </section>
         <section class="pt-16 flex">
-            <button class="btn flex-1 btn-rounded btn-gray">
+            <button class="btn flex-1 btn-rounded btn-gray-outline active-status btnStatus" data-status="-1">
                 All
             </button>
-            <button class="btn flex-1 mx-6 btn-rounded btn-danger">
+            <button class="btn flex-1 mx-6 btn-rounded btn-gray-outline btnStatus" data-status="1">
                 Complated
             </button>
-            <button class="btn flex-1 btn-rounded btn-gray-outline">
+            <button class="btn flex-1 btn-rounded btn-gray-outline btnStatus" data-status="0">
                 Pending
             </button>
         </section>
-        <section class="pt-14 space-y-6" id="taskContainer">
-    
-        </section>
+        <section class="pt-14 space-y-6" data-todo-container></section>
     </main>
 
-    <script src="./assets/js/ui.js"></script>
     <script src="./assets/js/todo.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
